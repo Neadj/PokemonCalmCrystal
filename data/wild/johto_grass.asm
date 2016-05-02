@@ -414,7 +414,7 @@
 	db 4, RATTATA
 	db 7, ZUBAT
 	db 6, ONIX
-	db 6, ONIX
+	db 6, CHARMANDER
 	; day
 	db 6, GEODUDE
 	db 6, SANDSHREW
@@ -422,7 +422,7 @@
 	db 4, RATTATA
 	db 7, ZUBAT
 	db 6, ONIX
-	db 6, ONIX
+	db 6, CHARMANDER
 	; nite
 	db 6, GEODUDE
 	db 6, RATTATA
@@ -430,7 +430,7 @@
 	db 4, RATTATA
 	db 7, ZUBAT
 	db 6, ONIX
-	db 6, ONIX
+	db 6, CHARMANDER
 
 	map UNION_CAVE_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -441,7 +441,7 @@
 	db 8, ONIX
 	db 6, RATTATA
 	db 8, RATTATA
-	db 8, RATTATA
+	db 8, CYNDAQUIL
 	; day
 	db 8, GEODUDE
 	db 6, ZUBAT
@@ -449,7 +449,7 @@
 	db 8, ONIX
 	db 6, RATTATA
 	db 8, RATTATA
-	db 8, RATTATA
+	db 8, CYNDAQUIL
 	; nite
 	db 8, GEODUDE
 	db 6, ZUBAT
@@ -457,7 +457,7 @@
 	db 8, ONIX
 	db 6, RATTATA
 	db 8, RATTATA
-	db 8, RATTATA
+	db 8, CYNDAQUIL
 
 	map UNION_CAVE_B2F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -495,7 +495,7 @@
 	db 6, SLOWPOKE
 	db 8, ZUBAT
 	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	db 8, TOTODILE
 	; day
 	db 5, ZUBAT
 	db 6, ZUBAT
@@ -503,7 +503,7 @@
 	db 6, SLOWPOKE
 	db 8, ZUBAT
 	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	db 8, TOTODILE
 	; nite
 	db 5, ZUBAT
 	db 6, ZUBAT
@@ -511,7 +511,7 @@
 	db 6, SLOWPOKE
 	db 8, ZUBAT
 	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	db 8, TOTODILE
 
 	map SLOWPOKE_WELL_B2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
@@ -1197,7 +1197,7 @@
 	db 3, SENTRET
 	db 2, RATTATA
 	db 3, HOPPIP
-	db 3, HOPPIP
+	db 3, BULBASAUR
 	; day
 	db 2, PIDGEY
 	db 2, SENTRET
@@ -1205,7 +1205,7 @@
 	db 3, SENTRET
 	db 2, RATTATA
 	db 3, HOPPIP
-	db 3, HOPPIP
+	db 3, BULBASAUR
 	; nite
 	db 2, HOOTHOOT
 	db 2, RATTATA
@@ -1213,7 +1213,7 @@
 	db 3, RATTATA
 	db 2, RATTATA
 	db 3, HOOTHOOT
-	db 3, HOOTHOOT
+	db 3, BULBASAUR
 
 	map ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1224,7 +1224,7 @@
 	db 4, PIDGEY
 	db 3, WEEDLE
 	db 4, HOPPIP
-	db 4, HOPPIP
+	db 4, CHIKORITA
 	; day
 	db 3, PIDGEY
 	db 3, CATERPIE
@@ -1232,7 +1232,7 @@
 	db 4, PIDGEY
 	db 3, WEEDLE
 	db 4, HOPPIP
-	db 4, HOPPIP
+	db 4, CHIKORITA
 	; nite
 	db 3, SPINARAK
 	db 3, HOOTHOOT
@@ -1240,7 +1240,7 @@
 	db 4, HOOTHOOT
 	db 3, ZUBAT
 	db 4, HOOTHOOT
-	db 4, HOOTHOOT
+	db 4, CHIKORITA
 
 	map ROUTE_31
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1332,7 +1332,7 @@
 	db 10, ABRA
 	db 12, JIGGLYPUFF
 	db 10, DITTO
-	db 10, DITTO
+	db 10, SQUIRTLE
 	; day
 	db 10, SNUBBULL
 	db 11, RATTATA
@@ -1340,7 +1340,7 @@
 	db 10, ABRA
 	db 12, JIGGLYPUFF
 	db 10, DITTO
-	db 10, DITTO
+	db 10, SQUIRTLE
 	; nite
 	db 12, DROWZEE
 	db 11, RATTATA
@@ -1348,7 +1348,7 @@
 	db 10, ABRA
 	db 12, JIGGLYPUFF
 	db 10, DITTO
-	db 10, DITTO
+	db 10, SQUIRTLE
 
 	map ROUTE_35
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

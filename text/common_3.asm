@@ -1172,16 +1172,16 @@ UnknownText_0x1c1cf3::
 	done
 
 _OakText1::
-	text "Hello! Sorry to"
-	line "keep you waiting!"
+	text "I'm being poss-"
+	line "essed by Aymeric"
 
-	para "Welcome to the"
-	line "world of #MON!"
+	para "Welcome to #MON"
+	line "Calm Crystal"
 
-	para "My name is OAK."
+	para "It's my ROM Hack"
 
-	para "People call me the"
-	line "#MON PROF."
+	para "It lets you cap-"
+	line "ture all 251."
 	prompt
 
 _OakText2::
