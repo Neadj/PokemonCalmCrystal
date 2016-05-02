@@ -360,19 +360,19 @@ endr
 ; 2a1cb
 
 .GrassMonTable: ; 2a1cb
-	db 30,  $0 ; 30% chance
-	db 60,  $2 ; 30% chance
-	db 80,  $4 ; 20% chance
-	db 90,  $6 ; 10% chance
-	db 95,  $8 ;  5% chance
-	db 99,  $a ;  4% chance
-	db 100, $c ;  1% chance
+	db 20,  $0 ; 20% chance
+	db 35,  $2 ; 15% chance
+	db 50,  $4 ; 15% chance
+	db 65,  $6 ; 15% chance
+	db 80,  $8 ; 15% chance
+	db 95,  $a ; 15% chance
+	db 100, $c ;  5% chance
 ; 2a1d9
 
 .WaterMonTable: ; 2a1d9
-	db 60,  $0 ; 60% chance
-	db 90,  $2 ; 30% chance
-	db 100, $4 ; 10% chance
+	db 40,  $0 ; 40% chance
+	db 80,  $2 ; 40% chance
+	db 100, $4 ; 20% chance
 ; 2a1df
 
 CheckRepelEffect:: ; 2a1df
